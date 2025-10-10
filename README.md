@@ -1,6 +1,6 @@
 # Run this in browser(Normal way) with the latest commit from main branch:
 ```
-https://vivekanandan-ks.github.io/tamil-sfd-2025/
+https://tamilsfd25.github.io/
 ```
 # Running with Nix (Recommended for both development and regular use)
 Install Nix :-
@@ -12,12 +12,12 @@ curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix 
 
 Run this in terminal(latest commit):
 ```bash
-nix run github:vivekanandan-ks/tamil-sfd-2025
+nix run github:tamilsfd25/tamilsfd25.github.io
 ```
 This is the equivalent of the follows without polluting your directories. 
 ```bash
-git clone https://github.com/vivekanandan-ks/tamil-sfd-2025.git
-cd tamil-sfd-2025
+git clone https://github.com/tamilsfd25/tamilsfd25.github.io.git
+cd tamilsfd25.github.io
 xdg-open index.html
 ```
 Also like a website, this'll fetch the latest changes from the main branch and do this.
@@ -29,10 +29,10 @@ When someone gives a PR and you want to try the exact site locally?
 Just run this:
 ```bash
 # Note: Here 1 is the PR number
-nix run github:vivekanandan-ks/tamil-sfd-2025/pull/1/head
+nix run github:tamilsfd25/tamilsfd25.github.io/pull/{PR NUMBER}/head
 
-# Note: abc123def456 is the commit SHA
-nix run github:vivekanandan-ks/tamil-sfd-2025/abc123def456
+# Note: b7f67dab81 is the commit SHA
+nix run github:tamilsfd25/tamilsfd25.github.io/b7f67dab81
 ```
 
 
